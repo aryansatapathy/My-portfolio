@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My GitHub Portfolio</title>
+
+    <!-- FONT AWESOME -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+
+    <!-- CSS FILE -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="script.js" />
+  </head>
+
+  <body>
+    <!-- NAVIGATION -->
+    <nav>
+      <h2 class="logo">MyPortfolio</h2>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- HERO -->
+    <section id="home" class="hero">
+      <img src="pic.png" alt="My Photo" class="profile-pic" />
+      <h1>Hi, I'm <span class="highlight">Aryan Satapathy</span></h1>
+      <p>A passionate Web Developer & Programmer</p>
+      <a href="#projects" class="btn">View My Work</a>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="about">
+      <h2>About Me</h2>
+      <p>
+        I am a developer who loves creating websites, apps, and solving coding
+        problems. This portfolio showcases all my GitHub work.
+      </p>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills">
+      <h2 class="skills-title">Skills</h2>
+      <div class="skills">
+        <div class="skill">
+          <i class="fab fa-html5"></i>
+          <h4>HTML</h4>
+          <p>Semantic structure, accessibility, clean markup.</p>
+        </div>
+        <div class="skill">
+          <i class="fab fa-css3-alt"></i>
+          <h4>CSS</h4>
+          <p>Responsive layouts, animations, modern UI.</p>
+        </div>
+        <div class="skill">
+          <i class="fab fa-js"></i>
+          <h4>JavaScript</h4>
+          <p>Logic-driven UI, DOM manipulation.</p>
+        </div>
+        <div class="skill">
+          <i class="fas fa-code"></i>
+          <h4>C Programming</h4>
+          <p>Core fundamentals, memory, problem solving.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="projects">
+      <h2>My Projects</h2>
+
+      <div class="project-grid">
+        <div class="project-card">
+          <h3>Project 1</h3>
+          <p>A simple description of your project.</p>
+          <a href="#" target="_blank">View on GitHub</a>
+        </div>
+        <div class="project-card">
+          <h3>Project 2</h3>
+          <p>A simple description of your project.</p>
+          <a href="#" target="_blank">View on GitHub</a>
+        </div>
+        <div class="project-card">
+          <h3>Project 3</h3>
+          <p>A simple description of your project.</p>
+          <a href="#" target="_blank">View on GitHub</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact">
+      <h2>Contact Me</h2>
+      <button class="btn" onclick="showAlert()">Say Hi!</button>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <p>© 2025 Aryan Satapathy | GitHub Portfolio</p>
+    </footer>
+
+    <!-- JS FILE -->
+    <script src="script.js"></script>
+  </body>
+</html>
